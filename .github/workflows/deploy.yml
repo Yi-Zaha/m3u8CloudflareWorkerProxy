@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 60
     needs: build
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Publish
         uses: cloudflare/wrangler-action@v2
         with:
